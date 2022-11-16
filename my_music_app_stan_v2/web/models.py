@@ -7,7 +7,6 @@ from my_music_app_stan_v2.web.validators import validate_only_letters_numbers_un
 class Profile(models.Model):
     USERNAME_MAX_LEN = 15
     USERNAME_MIN_LEN = 2
-
     AGE_MIN_VALUE = 0
 
     username = models.CharField(
